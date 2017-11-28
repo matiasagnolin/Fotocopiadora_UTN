@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterPage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+<div class="card">
+    <h3 class="card-header">Elegir Archivo</h3>
+    <div class="card-block">
+      <h4 class="card-title">Elige tu propio archivo</h4>
+      <p class="card-text">Desde esta pantalla vas a poder elegir tu archivo desde tu computadora para que sea impreso.</p>
+      <a href="#" class="btn btn-primary">Continuar</a>
+      <form method="post" action="subir_archivo.php" enctype="multipart/form-data">
+        <input type="file" name="archivo" class="custom-file-input"/><br />
+        <span class="custom-file-control"></span>
+        <input type="submit" value="Enviar" />
+    </form>
+    </div>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+

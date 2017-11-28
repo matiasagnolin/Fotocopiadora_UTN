@@ -1,0 +1,51 @@
+.logo
+{
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.facultad{
+    clear: left;
+    float: right;
+    
+}
+
+.ingresar{
+    float: right;
+}
+.menu li{
+    font-size: 18px;
+}
+.container{
+    margin-bottom: 0px;
+}
+.list-group-item:hover{
+        color:#586E59;
+        background-color:#A4BBD1;
+}
+/* tr{
+    background-color: #FFFFFF;
+    color: #050505;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+tr:nth-child(2n+1){
+  
+    background-color: #837E7E;
+    color: #FFFFFF;
+}
+
+tr:hover{
+    background-color: #CAC0C0;
+} */
